@@ -44,6 +44,38 @@ Roughly grouped, the columns are:
 
 `pdf_url` opens the filing on the FEC's DocQuery.
 
+### `reports.csv`
+
+One row per financial report the committee filed. Where `transactions.csv` says
+what was spent on candidates, this says what the committee raised, what it
+spent in total, and what it held.
+
+| column | |
+| --- | --- |
+| `report_type` / `report_type_full` | `Q2`, `JULY QUARTERLY` |
+| `coverage_start_date` / `coverage_end_date` | the months the report covers |
+| `receipt_date` | when the FEC received it |
+| `total_receipts_period` | raised during the covered period |
+| `total_disbursements_period` | spent during the covered period |
+| `cash_on_hand_beginning_period` / `cash_on_hand_end_period` | balance at each end |
+| `debts_owed_by_committee` | outstanding debts |
+
+Nothing is disclosed between reports. The committee files a few times a year,
+so the gaps between coverage periods are unreported rather than quiet.
+
+Amended reports are dropped. The API returns both the original and the
+correction, and returns a `most_recent` field but ignores `most_recent` as a
+query parameter. `is_amended=false` is what removes the superseded copies.
+
+### `report_parts.csv`
+
+The named categories inside each report, in long form: one row per line item.
+`side` is `in` or `out`, `label` is the category, `amount` is the figure for
+that covered period. Join to `reports.csv` on `coverage_end_date`.
+
+A period can have every dollar in one category, in which case the others are
+zero. That is the filing, not a gap in the data.
+
 ## Two things to know before you recompute this
 
 **1. The FEC reports the same expenditure twice.**
@@ -97,6 +129,7 @@ totals for the completed 2024 cycle exactly, across every race.
 
 ## Source
 
-FEC API, Schedule E (`/schedules/schedule_e/`) and candidate records
-(`/candidates/totals/`). Nothing here is scraped, and no figure is derived from
-free text — races come from structured FEC fields only.
+FEC API. Independent expenditures from Schedule E (`/schedules/schedule_e/`),
+candidate records from `/candidates/totals/`, and financial reports from
+`/committee/{id}/reports/`. Nothing here is scraped, and no figure is derived
+from free text: races come from structured FEC fields only.
