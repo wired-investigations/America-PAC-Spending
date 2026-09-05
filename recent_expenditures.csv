@@ -1,6 +1,8 @@
 spend_date,race_id,race_name,candidate_name,support_oppose,amount,payee_name,purpose,pdf_url
 2026-09-10,2026-S-NH,NH Senate (2026),"PAPPAS, CHRIS",oppose,82176.00,RED MAVERICK MEDIA LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609029904082307
 2026-09-10,2026-S-ME,ME Senate (2026),"JACKSON, TROY DALE",oppose,102847.00,RED MAVERICK MEDIA LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609029904082307
+2026-09-01,2026-S-AK,AK Senate (2026),"PELTOLA, MARY",oppose,20384.50,THE BAKER GROUP LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609039904090271
+2026-09-01,2026-S-AK,AK Senate (2026),"SULLIVAN, DAN",support,20384.50,THE BAKER GROUP LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609039904090271
 2026-09-01,2026-H-FL-25,FL-25 (2026),"MOSKOWITZ, JARED",oppose,4336.20,STORYTELLERS GROUP LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609029904082309
 2026-09-01,2026-H-FL-25,FL-25 (2026),"SINGER, SCOTT M.",support,4336.20,STORYTELLERS GROUP LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609029904082309
 2026-09-01,2026-H-PA-08,PA-08 (2026),"COGNETTI, PAIGE",oppose,6189.90,STORYTELLERS GROUP LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609029904082308
@@ -97,5 +99,3 @@ spend_date,race_id,race_name,candidate_name,support_oppose,amount,payee_name,pur
 2024-11-01,2024-P-US,President (2024),"TRUMP, DONALD J.",support,12475.00,OSCEOLA STRATEGIES LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029932
 2024-10-31,2024-P-US,President (2024),"TRUMP, DONALD J.",support,137119.41,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029817
 2024-10-31,2024-P-US,President (2024),"HARRIS, KAMALA",oppose,204000.00,THE SYNAPSE GROUP LLC,CANVASSING/FIELD OPERATIONS,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029981
-2024-10-31,2024-P-US,President (2024),"TRUMP, DONALD J.",support,204000.00,THE SYNAPSE GROUP LLC,CANVASSING/FIELD OPERATIONS,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029981
-2024-10-31,2024-P-US,President (2024),"HARRIS, KAMALA",oppose,89705.75,EDGERTON STRATEGIES LLC,TEXTING,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029848
