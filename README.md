@@ -22,14 +22,14 @@ One row per race. This is the summary.
 | `expenditure_count` | how many expenditures |
 | `last_spend_date` | most recent activity |
 
-### `latest_spending.csv`
+### `recent_expenditures.csv`
 
-The 100 most recent expenditures, newest first. A slice of `transactions.csv`
+The 100 most recent expenditures, newest first. A slice of `expenditures.csv`
 with the display columns only: `spend_date`, `race_id`, `race_name`,
 `candidate_name`, `support_oppose`, `amount`, `payee_name`, `purpose`,
 `pdf_url`.
 
-### `transactions.csv`
+### `expenditures.csv`
 
 Every expenditure, one row each. This is the file the totals are built from —
 filter it to a race and you get exactly the rows behind that number.
@@ -44,9 +44,9 @@ Roughly grouped, the columns are:
 
 `pdf_url` opens the filing on the FEC's DocQuery.
 
-### `reports.csv`
+### `committee_reports.csv`
 
-One row per financial report the committee filed. Where `transactions.csv` says
+One row per financial report the committee filed. Where `expenditures.csv` says
 what was spent on candidates, this says what the committee raised, what it
 spent in total, and what it held.
 
@@ -67,11 +67,11 @@ Amended reports are dropped. The API returns both the original and the
 correction, and returns a `most_recent` field but ignores `most_recent` as a
 query parameter. `is_amended=false` is what removes the superseded copies.
 
-### `report_parts.csv`
+### `committee_report_lines.csv`
 
 The named categories inside each report, in long form: one row per line item.
 `side` is `in` or `out`, `label` is the category, `amount` is the figure for
-that covered period. Join to `reports.csv` on `coverage_end_date`.
+that covered period. Join to `committee_reports.csv` on `coverage_end_date`.
 
 A period can have every dollar in one category, in which case the others are
 zero. That is the filing, not a gap in the data.
@@ -114,7 +114,7 @@ The office, state and district the committee wrote are correct in every one of
 these, so we assign the race from those fields and keep the spending. The FEC's
 own `by_candidate` totals drop these rows.
 
-Filter `transactions.csv` on `race_id_source = "unmatched_candidate_id"` to see
+Filter `expenditures.csv` on `race_id_source = "unmatched_candidate_id"` to see
 them. `race_id_source` records how every row was assigned:
 
 | value | meaning |
