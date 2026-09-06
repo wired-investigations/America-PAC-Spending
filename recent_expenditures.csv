@@ -1,6 +1,27 @@
 spend_date,race_id,race_name,candidate_name,support_oppose,amount,payee_name,purpose,pdf_url
 2026-09-10,2026-S-NH,NH Senate (2026),Chris Pappas,oppose,82176.00,RED MAVERICK MEDIA LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609029904082307
 2026-09-10,2026-S-ME,ME Senate (2026),Troy Jackson,oppose,102847.00,RED MAVERICK MEDIA LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609029904082307
+2026-09-08,2026-S-MI,MI Senate (2026),Abdul El-Sayed,oppose,197742.56,RED ZONE STRATEGIC LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609049904103647
+2026-09-08,2026-S-MI,MI Senate (2026),Mike Rogers,support,197742.57,RED ZONE STRATEGIC LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609049904103646
+2026-09-08,2026-S-AK,AK Senate (2026),Mary Peltola,oppose,20384.50,THE BAKER GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609049904103648
+2026-09-08,2026-S-AK,AK Senate (2026),Dan Sullivan,support,20384.50,THE BAKER GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609049904103647
+2026-09-07,2026-S-AK,AK Senate (2026),Mary Peltola,oppose,1647.17,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609049904103651
+2026-09-06,2026-S-OH,OH Senate (2026),Sherrod Brown,oppose,35968.18,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609049904103650
+2026-09-06,2026-S-TX,TX Senate (2026),James Talarico,oppose,1303645.67,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609049904103650
+2026-09-06,2026-S-OH,OH Senate (2026),Sherrod Brown,oppose,551402.98,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609049904103649
+2026-09-06,2026-S-IA,IA Senate (2026),Josh Turek,oppose,159560.41,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609049904103649
+2026-09-06,2026-S-AK,AK Senate (2026),Mary Peltola,oppose,42802.17,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609049904103648
+2026-09-06,2026-S-OH,OH Senate (2026),Sherrod Brown,oppose,61000.00,FULL REACH MEDIA GROUP LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609049904103645
+2026-09-06,2026-S-IA,IA Senate (2026),Josh Turek,oppose,61000.00,FULL REACH MEDIA GROUP LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609049904103644
+2026-09-06,2026-S-TX,TX Senate (2026),James Talarico,oppose,61000.00,FULL REACH MEDIA GROUP LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609049904103644
+2026-09-06,2026-S-AK,AK Senate (2026),Mary Peltola,oppose,61000.00,FULL REACH MEDIA GROUP LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609049904103643
+2026-09-04,2026-S-MI,MI Senate (2026),Abdul El-Sayed,oppose,9140.62,RED ZONE STRATEGIC LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609049904103646
+2026-09-04,2026-S-MI,MI Senate (2026),Mike Rogers,support,9140.63,RED ZONE STRATEGIC LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609049904103645
+2026-09-03,2026-H-CO-08,CO-08 (2026),Gabe Evans,support,12220.20,CALIBER CONTACT,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609049904103643
+2026-09-03,2026-H-WA-03,WA-03 (2026),John Braun,support,12220.20,CALIBER CONTACT,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609049904103642
+2026-09-03,2026-H-CA-22,CA-22 (2026),David G. Valadao,support,12220.20,CALIBER CONTACT,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609049904103642
+2026-09-03,2026-H-AZ-06,AZ-06 (2026),Juan Ciscomani,support,12220.20,CALIBER CONTACT,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609049904103641
+2026-09-03,2026-H-AZ-01,AZ-01 (2026),Jay Feely,support,12220.20,CALIBER CONTACT,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609049904103641
 2026-09-01,2026-S-AK,AK Senate (2026),Mary Peltola,oppose,20384.50,THE BAKER GROUP LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609039904090271
 2026-09-01,2026-S-AK,AK Senate (2026),Dan Sullivan,support,20384.50,THE BAKER GROUP LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609039904090271
 2026-09-01,2026-H-FL-25,FL-25 (2026),Jared Moskowitz,oppose,4336.20,STORYTELLERS GROUP LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609029904082309
@@ -78,24 +99,3 @@ spend_date,race_id,race_name,candidate_name,support_oppose,amount,payee_name,pur
 2024-11-03,2024-P-US,President (2024),Donald J. Trump,support,22222.22,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029920
 2024-11-02,2024-P-US,President (2024),Kamala Harris,oppose,77777.78,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029920
 2024-11-02,2024-P-US,President (2024),Donald J. Trump,support,77777.78,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029919
-2024-11-02,2024-P-US,President (2024),Donald J. Trump,support,166349.78,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029819
-2024-11-02,2024-P-US,President (2024),Donald J. Trump,support,178105.80,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029819
-2024-11-02,2024-P-US,President (2024),Donald J. Trump,support,99078.22,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029818
-2024-11-02,2024-P-US,President (2024),Donald J. Trump,support,313589.44,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029818
-2024-11-02,2024-P-US,President (2024),Donald J. Trump,support,1882492.28,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029817
-2024-11-02,2024-P-US,President (2024),Kamala Harris,oppose,33333.33,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029919
-2024-11-02,2024-P-US,President (2024),Donald J. Trump,support,33333.34,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029918
-2024-11-01,2024-P-US,President (2024),Donald J. Trump,support,61421.92,IMGE LLC,TEXTING,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029918
-2024-11-01,2024-P-US,President (2024),Donald J. Trump,support,177978.88,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029816
-2024-11-01,2024-P-US,President (2024),Donald J. Trump,support,107782.48,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029816
-2024-11-01,2024-P-US,President (2024),Donald J. Trump,support,94600.00,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029815
-2024-11-01,2024-P-US,President (2024),Donald J. Trump,support,254000.19,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029815
-2024-11-01,2024-P-US,President (2024),Donald J. Trump,support,1039470.44,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029814
-2024-11-01,2024-P-US,President (2024),Donald J. Trump,support,141194.96,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029814
-2024-11-01,2024-P-US,President (2024),Donald J. Trump,support,306547.22,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029813
-2024-11-01,2024-P-US,President (2024),Kamala Harris,oppose,55555.55,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029917
-2024-11-01,2024-P-US,President (2024),Donald J. Trump,support,55555.56,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029917
-2024-11-01,2024-P-US,President (2024),Kamala Harris,oppose,12475.00,OSCEOLA STRATEGIES LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029932
-2024-11-01,2024-P-US,President (2024),Donald J. Trump,support,12475.00,OSCEOLA STRATEGIES LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029932
-2024-10-31,2024-P-US,President (2024),Donald J. Trump,support,137119.41,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029817
-2024-10-31,2024-P-US,President (2024),Kamala Harris,oppose,204000.00,THE SYNAPSE GROUP LLC,CANVASSING/FIELD OPERATIONS,https://docquery.fec.gov/cgi-bin/fecimg/?202412059738029981
