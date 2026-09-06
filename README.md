@@ -14,13 +14,22 @@ One row per race. This is the summary.
 | column | |
 | --- | --- |
 | `race_id` | stable ID: `2026-H-NY-18`, `2026-S-NC`, `2024-P-US` |
+| `cycle` | the election cycle the spending belongs to |
 | `race_name` | readable label: `NY-18 (2026)` |
 | `office` / `state` / `district` | `H`/`S`/`P`, two-letter state, zero-padded district |
+| `support_candidate_id` / `support_candidate_name` | the supported candidate: FEC ID and display name |
+| `oppose_candidate_id` / `oppose_candidate_name` | the opposed candidate: FEC ID and display name |
+| `support_party` / `oppose_party` | that candidate's party |
 | `support_amount` | spent supporting candidates in this race |
 | `oppose_amount` | spent opposing them |
 | `total_amount` | the two added together |
 | `expenditure_count` | how many expenditures |
 | `last_spend_date` | most recent activity |
+
+A race can have spending aimed at more than one candidate on the same side —
+a primary, for instance — so the candidate columns carry the candidate who
+received the most on that side. A blank oppose side means there was no
+opposing spending in that race, not missing data.
 
 ### `recent_expenditures.csv`
 
@@ -37,12 +46,27 @@ filter it to a race and you get exactly the rows behind that number.
 Roughly grouped, the columns are:
 
 - **what happened** — `spend_date`, `amount`, `support_oppose`, `purpose`, `payee_name`
-- **who it was about** — `race_id`, `race_name`, `candidate_id`, `candidate_name`, `office`, `state`, `district`
+- **who it was about** — `race_id`, `race_name`, `candidate_id`, `candidate_name`, `fec_candidate_name`, `office`, `state`, `district`
 - **the receipt** — `transaction_id`, `sub_id`, `file_number`, `filing_form`, `report_type`, `image_number`, `pdf_url`
 - **the raw dates** — `expenditure_date`, `disbursement_date`, `dissemination_date`
 - **how the race was decided** — `race_id_source`, `race_disagreement`, `race_id_inline`, `race_id_candidate`
 
 `pdf_url` opens the filing on the FEC's DocQuery.
+
+`candidate_name` is the readable form — `Marie Gluesenkamp Perez`, not
+`GLUESENKAMP PEREZ, MARIE`. `fec_candidate_name` keeps the FEC's own string so
+nothing is lost by publishing a readable one. Names come from
+`display_names.csv`, one row per FEC candidate ID: the form the candidate
+actually campaigns under where research found it, the FEC string mechanically
+reordered and recased where it did not.
+
+### `display_names.csv`
+
+A lookup from FEC candidate ID to the name used on screen: `candidate_id`,
+`display_name`, one row per candidate. The names come from three sources —
+the congressional roster, certified state ballot lists, and candidate
+committee filings. Where none of those resolved a name, the FEC's own string
+is reordered and recased.
 
 ### `committee_reports.csv`
 
