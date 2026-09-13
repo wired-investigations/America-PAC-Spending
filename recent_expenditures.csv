@@ -8,17 +8,26 @@ spend_date,race_id,race_name,candidate_name,support_oppose,amount,payee_name,pur
 2026-09-25,2026-S-ME,ME Senate (2026),Susan M. Collins,support,51424.00,RED MAVERICK MEDIA LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609109904190242
 2026-09-25,2026-S-NH,NH Senate (2026),Chris Pappas,oppose,38592.50,RED MAVERICK MEDIA LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609109904190242
 2026-09-25,2026-S-NH,NH Senate (2026),John Sununu,support,38592.50,RED MAVERICK MEDIA LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609109904190241
+2026-09-22,2026-S-IA,IA Senate (2026),Josh Turek,oppose,196885.00,THE BAKER GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609119904198219
 2026-09-22,2026-H-VA-02,VA-02 (2026),Elaine G. Luria,oppose,4500.00,STORYTELLERS GROUP LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609109904190247
 2026-09-22,2026-H-VA-02,VA-02 (2026),Jennifer A. Kiggans,support,4500.00,STORYTELLERS GROUP LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609109904190246
 2026-09-22,2026-S-TX,TX Senate (2026),James Talarico,oppose,246000.00,STORYTELLERS GROUP LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609109904190246
+2026-09-21,2026-S-AK,AK Senate (2026),Mary Peltola,oppose,20384.50,THE BAKER GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609119904198218
+2026-09-21,2026-S-AK,AK Senate (2026),Dan Sullivan,support,20384.50,THE BAKER GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609119904198217
 2026-09-18,2026-S-ME,ME Senate (2026),Troy Jackson,oppose,3305.30,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609109904190239
 2026-09-18,2026-S-NH,NH Senate (2026),Chris Pappas,oppose,4020.13,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609109904190239
 2026-09-18,2026-S-ME,ME Senate (2026),Troy Jackson,oppose,505.00,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609109904190238
 2026-09-18,2026-S-NH,NH Senate (2026),Chris Pappas,oppose,505.00,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609109904190238
+2026-09-15,2026-S-IA,IA Senate (2026),Josh Turek,oppose,164363.00,THE BAKER GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609119904198218
+2026-09-14,2026-S-AK,AK Senate (2026),Mary Peltola,oppose,20384.50,THE BAKER GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609119904198217
+2026-09-14,2026-S-AK,AK Senate (2026),Dan Sullivan,support,20384.50,THE BAKER GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609119904198216
+2026-09-12,2026-S-IA,IA Senate (2026),Josh Turek,oppose,19292.48,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609119904198215
 2026-09-11,2026-H-FL-25,FL-25 (2026),Jared Moskowitz,oppose,1012.50,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609099904179073
 2026-09-11,2026-H-FL-25,FL-25 (2026),Scott Singer,support,1012.50,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609099904179073
 2026-09-11,2026-S-MI,MI Senate (2026),Abdul El-Sayed,oppose,295.00,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609099904179071
 2026-09-11,2026-S-MI,MI Senate (2026),Mike Rogers,support,295.00,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609099904179071
+2026-09-10,2026-S-MI,MI Senate (2026),Abdul El-Sayed,oppose,20000.00,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609119904198216
+2026-09-10,2026-S-MI,MI Senate (2026),Mike Rogers,support,20000.00,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609119904198215
 2026-09-10,2026-H-VA-02,VA-02 (2026),Jennifer A. Kiggans,support,30759.85,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609109904190237
 2026-09-10,2026-H-PA-10,PA-10 (2026),Scott Perry,support,47089.90,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609109904190237
 2026-09-10,2026-H-PA-08,PA-08 (2026),"Robert P. Bresnahan, Jr.",support,49787.65,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609109904190236
@@ -90,12 +99,3 @@ spend_date,race_id,race_name,candidate_name,support_oppose,amount,payee_name,pur
 2026-09-08,2026-S-OH,OH Senate (2026),Jon Husted,support,10920.98,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609099904179052
 2026-09-08,2026-H-OH-09,OH-09 (2026),Derek Merrin,support,11174.80,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609099904179052
 2026-09-08,2026-S-OH,OH Senate (2026),Jon Husted,support,11174.80,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609099904179051
-2026-09-08,2026-H-OH-07,OH-07 (2026),Max L. Miller,support,12546.30,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609099904179051
-2026-09-08,2026-S-OH,OH Senate (2026),Jon Husted,support,12546.30,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609099904179050
-2026-09-08,2026-H-OH-05,OH-05 (2026),Robert E. Latta,support,11479.32,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609099904179050
-2026-09-08,2026-S-OH,OH Senate (2026),Jon Husted,support,11479.33,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609099904179049
-2026-09-08,2026-H-OH-01,OH-01 (2026),Eric Conroy,support,12480.97,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609099904179049
-2026-09-08,2026-S-OH,OH Senate (2026),Jon Husted,support,12480.98,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609099904179048
-2026-09-08,2026-S-OH,OH Senate (2026),Sherrod Brown,oppose,132669.30,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609099904179048
-2026-09-08,2026-S-OH,OH Senate (2026),Jon Husted,support,132669.30,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609099904179047
-2026-09-08,2026-H-MI-10,MI-10 (2026),Michael Bouchard,support,6712.55,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609099904179047
