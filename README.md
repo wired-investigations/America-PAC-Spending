@@ -49,6 +49,7 @@ Roughly grouped, the columns are:
 - **who it was about** — `race_id`, `race_name`, `candidate_id`, `candidate_name`, `fec_candidate_name`, `office`, `state`, `district`
 - **the receipt** — `transaction_id`, `sub_id`, `file_number`, `filing_form`, `report_type`, `image_number`, `pdf_url`
 - **the raw dates** — `expenditure_date`, `disbursement_date`, `dissemination_date`
+- **the election** — `election_type`: `G2026` is the 2026 general, `S2025` a 2025 special election
 - **how the race was decided** — `race_id_source`, `race_disagreement`, `race_id_inline`, `race_id_candidate`
 
 `pdf_url` opens the filing on the FEC's DocQuery.
@@ -67,6 +68,24 @@ A lookup from FEC candidate ID to the name used on screen: `candidate_id`,
 the congressional roster, certified state ballot lists, and candidate
 committee filings. Where none of those resolved a name, the FEC's own string
 is reordered and recased.
+
+### `embed_*.csv`
+
+The five files WIRED's candidate-spending graphic reads, already added up so
+the graphic does no arithmetic of its own. They cover the 2026 cycle, and
+their dates are the day each payment was made (`disbursement_date`).
+
+| file | |
+| --- | --- |
+| `embed_races.csv` | one row per race, amounts in whole dollars, with its newest payment and a `special_election` label |
+| `embed_payments.csv` | one row per expenditure, newest first within each race, with a `filing_url` |
+| `embed_states.csv` | one row per state, split by chamber and by supporting/opposing |
+| `embed_summary.csv` | one row: the graphic's headline figures and shares |
+| `embed_daily.csv` | running totals by day, nationally and by state, for its charts |
+
+Amounts that are added up are rounded to the dollar once, at the smallest
+level shown, and then added, so a state's Senate and House figures always sum
+to its total. `expenditures.csv` keeps the cents.
 
 ### `committee_reports.csv`
 
