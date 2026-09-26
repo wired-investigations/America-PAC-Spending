@@ -1,4 +1,6 @@
 spend_date,race_id,race_name,candidate_name,support_oppose,amount,payee_name,purpose,pdf_url
+2026-10-16,2026-S-NH,NH Senate (2026),Chris Pappas,oppose,29316.00,RED MAVERICK MEDIA LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417862
+2026-10-16,2026-S-NH,NH Senate (2026),John Sununu,support,29316.00,RED MAVERICK MEDIA LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417862
 2026-10-16,2026-H-NH-01,NH-01 (2026),Stefany Shaheen,oppose,21137.00,RED MAVERICK MEDIA LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609219908383841
 2026-10-16,2026-H-NH-01,NH-01 (2026),Anthony DiLorenzo,support,21137.00,RED MAVERICK MEDIA LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609219908383840
 2026-10-16,2026-H-ME-02,ME-02 (2026),Matt Dunlap,oppose,24288.00,RED MAVERICK MEDIA LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609219908383840
@@ -9,10 +11,17 @@ spend_date,race_id,race_name,candidate_name,support_oppose,amount,payee_name,pur
 2026-10-09,2026-S-ME,ME Senate (2026),Susan M. Collins,support,51424.00,RED MAVERICK MEDIA LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609159904217894
 2026-10-09,2026-H-NH-01,NH-01 (2026),Stefany Shaheen,oppose,21137.00,RED MAVERICK MEDIA LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609149904205611
 2026-10-09,2026-H-NH-01,NH-01 (2026),Anthony DiLorenzo,support,21137.00,RED MAVERICK MEDIA LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609149904205610
+2026-10-08,2026-S-TX,TX Senate (2026),James Talarico,oppose,1106446.64,STORYTELLERS GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417867
+2026-10-05,2026-H-TX-23,TX-23 (2026),Katy Padilla Stout,oppose,41968.00,STORYTELLERS GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417867
+2026-10-05,2026-H-TX-28,TX-28 (2026),Henry Cuellar,oppose,37665.00,STORYTELLERS GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417866
+2026-10-05,2026-H-TX-34,TX-34 (2026),Vicente Gonzalez,oppose,25204.00,STORYTELLERS GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417866
+2026-10-05,2026-H-TX-35,TX-35 (2026),Johnny Garcia,oppose,31470.00,STORYTELLERS GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417865
+2026-10-05,2026-H-TX-15,TX-15 (2026),Bobby Pulido,oppose,27938.00,STORYTELLERS GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417865
 2026-10-05,2026-S-AK,AK Senate (2026),Mary Peltola,oppose,20384.50,THE BAKER GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609219908383848
 2026-10-05,2026-S-AK,AK Senate (2026),Dan Sullivan,support,20384.50,THE BAKER GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609219908383847
 2026-10-05,2026-H-ME-02,ME-02 (2026),Matt Dunlap,oppose,24288.00,RED MAVERICK MEDIA LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609149904205612
 2026-10-05,2026-H-ME-02,ME-02 (2026),Paul LePage,support,24288.00,RED MAVERICK MEDIA LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609149904205611
+2026-10-02,2026-H-VA-02,VA-02 (2026),Elaine G. Luria,oppose,40928.00,STORYTELLERS GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609259908418863
 2026-10-02,2026-S-NH,NH Senate (2026),Chris Pappas,oppose,38592.50,RED MAVERICK MEDIA LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609109904190245
 2026-10-02,2026-S-NH,NH Senate (2026),John Sununu,support,38592.50,RED MAVERICK MEDIA LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609109904190244
 2026-10-02,2026-S-ME,ME Senate (2026),Troy Jackson,oppose,51424.00,RED MAVERICK MEDIA LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609109904190244
@@ -20,6 +29,27 @@ spend_date,race_id,race_name,candidate_name,support_oppose,amount,payee_name,pur
 2026-10-01,2026-S-TX,TX Senate (2026),James Talarico,oppose,1106446.64,STORYTELLERS GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609149904205615
 2026-09-30,2026-H-NH-01,NH-01 (2026),Stefany Shaheen,oppose,42274.00,RED MAVERICK MEDIA LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609149904205612
 2026-09-30,2026-H-ME-02,ME-02 (2026),Matt Dunlap,oppose,48576.00,RED MAVERICK MEDIA LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609109904190245
+2026-09-29,2026-S-OH,OH Senate (2026),Sherrod Brown,oppose,223596.97,RED ZONE STRATEGIC LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417864
+2026-09-29,2026-S-OH,OH Senate (2026),Jon Husted,support,223596.98,RED ZONE STRATEGIC LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417864
+2026-09-28,2026-S-OH,OH Senate (2026),Sherrod Brown,oppose,12442.50,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609259908418861
+2026-09-28,2026-S-OH,OH Senate (2026),Jon Husted,support,12442.50,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609259908418861
+2026-09-28,2026-S-NH,NH Senate (2026),Chris Pappas,oppose,16034.72,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609259908418860
+2026-09-28,2026-S-NH,NH Senate (2026),John Sununu,support,16034.73,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609259908418860
+2026-09-28,2026-S-MI,MI Senate (2026),Abdul El-Sayed,oppose,13007.05,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609259908418859
+2026-09-28,2026-S-MI,MI Senate (2026),Mike Rogers,support,13007.05,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609259908418859
+2026-09-28,2026-S-ME,ME Senate (2026),Troy Jackson,oppose,5632.55,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609259908418858
+2026-09-28,2026-S-ME,ME Senate (2026),Susan M. Collins,support,5632.55,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609259908418858
+2026-09-28,2026-S-IA,IA Senate (2026),Josh Turek,oppose,6531.52,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609259908418857
+2026-09-28,2026-S-IA,IA Senate (2026),Ashley Hinson,support,6531.53,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609259908418857
+2026-09-28,2026-S-AK,AK Senate (2026),Mary Peltola,oppose,6570.20,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609259908418856
+2026-09-28,2026-S-AK,AK Senate (2026),Dan Sullivan,support,6570.20,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609259908418856
+2026-09-28,2026-S-TX,TX Senate (2026),James Talarico,oppose,28206.85,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609259908418855
+2026-09-28,2026-S-TX,TX Senate (2026),Ken Paxton,support,28206.85,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609259908418855
+2026-09-28,2026-H-WA-03,WA-03 (2026),John Braun,support,44419.33,CALIBER CONTACT,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417834
+2026-09-28,2026-H-CO-08,CO-08 (2026),Gabe Evans,support,30241.88,CALIBER CONTACT,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417833
+2026-09-28,2026-H-VA-02,VA-02 (2026),Jennifer A. Kiggans,support,8713.71,STORYTELLERS GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417868
+2026-09-28,2026-S-NH,NH Senate (2026),Chris Pappas,oppose,16693.05,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417836
+2026-09-28,2026-S-NH,NH Senate (2026),John Sununu,support,16693.05,CONNECTION STRATEGY LLC,MESSAGE PHONE CALLS,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417836
 2026-09-28,2026-S-AK,AK Senate (2026),Mary Peltola,oppose,20384.50,THE BAKER GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609219908383847
 2026-09-28,2026-S-AK,AK Senate (2026),Dan Sullivan,support,20384.50,THE BAKER GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609219908383846
 2026-09-28,2026-H-IA-03,IA-03 (2026),Sarah Trone Garriott,oppose,7033.00,THE BAKER GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609189904424536
@@ -36,66 +66,36 @@ spend_date,race_id,race_name,candidate_name,support_oppose,amount,payee_name,pur
 2026-09-28,2026-H-TX-34,TX-34 (2026),Eric Flores,support,12602.00,STORYTELLERS GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609169904267677
 2026-09-28,2026-H-TX-35,TX-35 (2026),Johnny Garcia,oppose,15735.00,STORYTELLERS GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609169904267677
 2026-09-28,2026-H-TX-35,TX-35 (2026),Carlos De La Cruz,support,15735.00,STORYTELLERS GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609169904267676
+2026-09-27,2026-H-MI-04,MI-04 (2026),Sean McCann,oppose,26161.05,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609259908418862
+2026-09-27,2026-H-FL-25,FL-25 (2026),Jared Moskowitz,oppose,10000.00,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417857
+2026-09-27,2026-H-FL-25,FL-25 (2026),Jared Moskowitz,oppose,29365.50,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417857
+2026-09-27,2026-H-MI-10,MI-10 (2026),Christina Hines,oppose,17242.94,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417838
+2026-09-27,2026-H-MI-04,MI-04 (2026),Sean McCann,oppose,27531.99,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417837
+2026-09-27,2026-H-MI-07,MI-07 (2026),William Lawrence,oppose,26198.12,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417837
+2026-09-26,2026-H-MI-08,MI-08 (2026),Kristen McDonald Rivet,oppose,1180.00,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417856
+2026-09-26,2026-H-MI-04,MI-04 (2026),Sean McCann,oppose,1180.00,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417856
+2026-09-26,2026-H-MI-08,MI-08 (2026),Kristen McDonald Rivet,oppose,5783.71,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417855
+2026-09-26,2026-H-MI-07,MI-07 (2026),William Lawrence,oppose,5753.28,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417855
+2026-09-26,2026-H-MI-04,MI-04 (2026),Sean McCann,oppose,5740.10,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417854
+2026-09-26,2026-H-MI-07,MI-07 (2026),William Lawrence,oppose,845.00,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417854
+2026-09-26,2026-H-MI-10,MI-10 (2026),Christina Hines,oppose,845.00,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417853
+2026-09-26,2026-H-MI-10,MI-10 (2026),Christina Hines,oppose,3820.40,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417853
+2026-09-25,2026-H-NY-17,NY-17 (2026),Cait Conley,oppose,1133.61,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609259908418862
+2026-09-25,2026-H-AZ-01,AZ-01 (2026),Jay Feely,support,52012.62,CALIBER CONTACT,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417835
+2026-09-25,2026-H-AZ-06,AZ-06 (2026),Juan Ciscomani,support,49147.70,CALIBER CONTACT,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417835
+2026-09-25,2026-H-ME-02,ME-02 (2026),Matt Dunlap,oppose,1322.43,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417859
+2026-09-25,2026-H-ME-02,ME-02 (2026),Paul LePage,support,1322.44,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417859
+2026-09-25,2026-H-WI-03,WI-03 (2026),Rebecca Cooke,oppose,39462.60,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417842
 2026-09-25,2026-S-NH,NH Senate (2026),Chris Pappas,oppose,39088.00,RED MAVERICK MEDIA LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609169904267675
 2026-09-25,2026-S-NH,NH Senate (2026),John Sununu,support,39088.00,RED MAVERICK MEDIA LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609169904267675
 2026-09-25,2026-S-ME,ME Senate (2026),Troy Jackson,oppose,51424.00,RED MAVERICK MEDIA LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609109904190243
 2026-09-25,2026-S-ME,ME Senate (2026),Susan M. Collins,support,51424.00,RED MAVERICK MEDIA LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609109904190242
 2026-09-25,2026-S-NH,NH Senate (2026),Chris Pappas,oppose,38592.50,RED MAVERICK MEDIA LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609109904190242
 2026-09-25,2026-S-NH,NH Senate (2026),John Sununu,support,38592.50,RED MAVERICK MEDIA LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609109904190241
-2026-09-22,2026-S-OH,OH Senate (2026),Sherrod Brown,oppose,184491.57,RED ZONE STRATEGIC LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609219908383846
-2026-09-22,2026-S-OH,OH Senate (2026),Jon Husted,support,184491.57,RED ZONE STRATEGIC LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609219908383845
-2026-09-22,2026-S-MI,MI Senate (2026),Abdul El-Sayed,oppose,185756.02,RED ZONE STRATEGIC LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609219908383845
-2026-09-22,2026-S-MI,MI Senate (2026),Mike Rogers,support,185756.03,RED ZONE STRATEGIC LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609219908383844
-2026-09-22,2026-S-MI,MI Senate (2026),Abdul El-Sayed,oppose,58357.21,RED ZONE STRATEGIC LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609219908383844
-2026-09-22,2026-S-MI,MI Senate (2026),Mike Rogers,support,58357.21,RED ZONE STRATEGIC LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609219908383843
-2026-09-22,2026-S-OH,OH Senate (2026),Sherrod Brown,oppose,44904.18,RED ZONE STRATEGIC LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609219908383843
-2026-09-22,2026-S-OH,OH Senate (2026),Jon Husted,support,44904.19,RED ZONE STRATEGIC LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609219908383842
-2026-09-22,2026-H-CO-08,CO-08 (2026),Gabe Evans,support,30241.88,CALIBER CONTACT,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609219908383839
-2026-09-22,2026-H-WA-03,WA-03 (2026),John Braun,support,44419.33,CALIBER CONTACT,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609219908383838
-2026-09-22,2026-H-CA-22,CA-22 (2026),David G. Valadao,support,30917.23,CALIBER CONTACT,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609219908383838
-2026-09-22,2026-H-PA-10,PA-10 (2026),Janelle Stelson,oppose,26043.50,STORYTELLERS GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609189904424534
-2026-09-22,2026-H-PA-10,PA-10 (2026),Scott Perry,support,26043.50,STORYTELLERS GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609189904424534
-2026-09-22,2026-H-PA-08,PA-08 (2026),Paige Cognetti,oppose,27374.00,STORYTELLERS GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609189904424533
-2026-09-22,2026-H-PA-08,PA-08 (2026),"Robert P. Bresnahan, Jr.",support,27374.00,STORYTELLERS GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609189904424533
-2026-09-22,2026-H-PA-07,PA-07 (2026),Bob Brooks,oppose,24521.50,STORYTELLERS GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609189904424532
-2026-09-22,2026-H-PA-07,PA-07 (2026),Ryan Edward Mackenzie,support,24521.50,STORYTELLERS GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609189904424532
-2026-09-22,2026-S-ME,ME Senate (2026),Troy Jackson,oppose,10941.50,RED MAVERICK MEDIA LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609179904302343
-2026-09-22,2026-S-ME,ME Senate (2026),Susan M. Collins,support,10941.50,RED MAVERICK MEDIA LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609179904302343
-2026-09-22,2026-H-WI-03,WI-03 (2026),Rebecca Cooke,oppose,4725.00,STORYTELLERS GROUP LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609159904217898
-2026-09-22,2026-H-WI-03,WI-03 (2026),Derrick Van Orden,support,4725.00,STORYTELLERS GROUP LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609159904217897
-2026-09-22,2026-H-FL-25,FL-25 (2026),Jared Moskowitz,oppose,4336.20,STORYTELLERS GROUP LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609159904217897
-2026-09-22,2026-H-FL-25,FL-25 (2026),Scott Singer,support,4336.20,STORYTELLERS GROUP LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609159904217896
-2026-09-22,2026-S-IA,IA Senate (2026),Josh Turek,oppose,196885.00,THE BAKER GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609119904198219
-2026-09-22,2026-H-VA-02,VA-02 (2026),Elaine G. Luria,oppose,4500.00,STORYTELLERS GROUP LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609109904190247
-2026-09-22,2026-H-VA-02,VA-02 (2026),Jennifer A. Kiggans,support,4500.00,STORYTELLERS GROUP LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609109904190246
-2026-09-22,2026-S-TX,TX Senate (2026),James Talarico,oppose,246000.00,STORYTELLERS GROUP LLC,PRINTING,https://docquery.fec.gov/cgi-bin/fecimg/?202609109904190246
-2026-09-21,2026-H-AZ-06,AZ-06 (2026),Juan Ciscomani,support,49147.70,CALIBER CONTACT,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609219908383837
-2026-09-21,2026-H-AZ-01,AZ-01 (2026),Jay Feely,support,52012.62,CALIBER CONTACT,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609219908383837
-2026-09-21,2026-S-AK,AK Senate (2026),Dan Sullivan,support,1632.77,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609189904424531
-2026-09-21,2026-S-AK,AK Senate (2026),Mary Peltola,oppose,20384.50,THE BAKER GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609119904198218
-2026-09-21,2026-S-AK,AK Senate (2026),Dan Sullivan,support,20384.50,THE BAKER GROUP LLC,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609119904198217
-2026-09-20,2026-S-IA,IA Senate (2026),Josh Turek,oppose,150695.94,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609189904424531
-2026-09-20,2026-S-ME,ME Senate (2026),Troy Jackson,oppose,97361.14,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609189904424525
-2026-09-20,2026-S-NH,NH Senate (2026),Chris Pappas,oppose,81310.98,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609189904424525
-2026-09-20,2026-S-ME,ME Senate (2026),Troy Jackson,oppose,40000.00,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609189904424524
-2026-09-20,2026-S-NH,NH Senate (2026),Chris Pappas,oppose,40000.00,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609189904424524
-2026-09-20,2026-S-TX,TX Senate (2026),James Talarico,oppose,1362443.00,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609179904302342
-2026-09-20,2026-S-OH,OH Senate (2026),Sherrod Brown,oppose,572506.00,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609179904302342
-2026-09-20,2026-S-AK,AK Senate (2026),Mary Peltola,oppose,40424.27,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609179904302341
-2026-09-20,2026-S-MI,MI Senate (2026),Abdul El-Sayed,oppose,673377.95,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609179904302341
-2026-09-20,2026-S-MI,MI Senate (2026),Abdul El-Sayed,oppose,40000.00,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609179904302340
-2026-09-20,2026-S-IA,IA Senate (2026),Josh Turek,oppose,61000.00,FULL REACH MEDIA GROUP LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609159904217890
-2026-09-20,2026-S-OH,OH Senate (2026),Sherrod Brown,oppose,61000.00,FULL REACH MEDIA GROUP LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609159904217890
-2026-09-20,2026-S-AK,AK Senate (2026),Mary Peltola,oppose,61000.00,FULL REACH MEDIA GROUP LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609159904217889
-2026-09-20,2026-S-TX,TX Senate (2026),James Talarico,oppose,61000.00,FULL REACH MEDIA GROUP LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609159904217889
-2026-09-19,2026-H-TX-35,TX-35 (2026),Johnny Garcia,oppose,11328.78,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609189904424530
-2026-09-19,2026-H-TX-35,TX-35 (2026),Carlos De La Cruz,support,11328.79,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609189904424530
-2026-09-19,2026-H-TX-34,TX-34 (2026),Vicente Gonzalez,oppose,9134.96,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609189904424529
-2026-09-19,2026-H-TX-34,TX-34 (2026),Eric Flores,support,9134.96,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609189904424529
-2026-09-19,2026-H-TX-28,TX-28 (2026),Henry Cuellar,oppose,13455.53,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609189904424528
-2026-09-19,2026-H-TX-28,TX-28 (2026),Tano Tijerina,support,13455.54,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609189904424528
-2026-09-19,2026-H-TX-23,TX-23 (2026),Katy Padilla Stout,oppose,13466.54,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609189904424527
-2026-09-19,2026-H-TX-23,TX-23 (2026),Brandon Herrera,support,13466.54,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609189904424527
-2026-09-19,2026-H-TX-15,TX-15 (2026),Bobby Pulido,oppose,9758.05,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609189904424526
-2026-09-19,2026-H-TX-15,TX-15 (2026),Monica De La Cruz,support,9758.05,IMGE LLC,DIGITAL MEDIA,https://docquery.fec.gov/cgi-bin/fecimg/?202609189904424526
-2026-09-19,2026-H-VA-02,VA-02 (2026),Elaine G. Luria,oppose,3130.67,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609179904302340
+2026-09-24,2026-H-CA-22,CA-22 (2026),David G. Valadao,support,30917.23,CALIBER CONTACT,PRINTING/POSTAGE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417834
+2026-09-24,2026-H-PA-08,PA-08 (2026),Paige Cognetti,oppose,2780.24,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417861
+2026-09-24,2026-H-PA-10,PA-10 (2026),Janelle Stelson,oppose,2653.08,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417861
+2026-09-24,2026-H-NJ-07,NJ-07 (2026),Rebecca Bennett,oppose,1138.22,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417860
+2026-09-24,2026-H-PA-07,PA-07 (2026),Bob Brooks,oppose,2658.43,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417860
+2026-09-24,2026-S-ME,ME Senate (2026),Troy Jackson,oppose,9686.12,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417858
+2026-09-24,2026-S-NH,NH Senate (2026),Chris Pappas,oppose,11780.90,IMGE LLC,TEXTING SERVICE,https://docquery.fec.gov/cgi-bin/fecimg/?202609249908417858
