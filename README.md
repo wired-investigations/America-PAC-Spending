@@ -1,149 +1,99 @@
 # America PAC independent-expenditure data
 
 Independent expenditures reported to the Federal Election Commission by
-**America PAC** (committee `C00879510`), cleaned and totalled.
+**America PAC** (committee `C00879510`), cleaned and totalled by WIRED.
 
-Updated twice daily. Every row links back to the FEC filing it came from.
+Updated twice daily from the FEC. Every row links back to the filing it came
+from.
 
 ## The files
 
-### `race_totals.csv`
-
-One row per race. This is the summary.
-
-| column | |
-| --- | --- |
-| `race_id` | stable ID: `2026-H-NY-18`, `2026-S-NC`, `2024-P-US` |
-| `cycle` | the election cycle the spending belongs to |
-| `race_name` | readable label: `NY-18 (2026)` |
-| `office` / `state` / `district` | `H`/`S`/`P`, two-letter state, zero-padded district |
-| `support_candidate_id` / `support_candidate_name` | the supported candidate: FEC ID and display name |
-| `oppose_candidate_id` / `oppose_candidate_name` | the opposed candidate: FEC ID and display name |
-| `support_party` / `oppose_party` | that candidate's party |
-| `support_amount` | spent supporting candidates in this race |
-| `oppose_amount` | spent opposing them |
-| `total_amount` | the two added together |
-| `expenditure_count` | how many expenditures |
-| `last_spend_date` | most recent activity |
-
-A race can have spending aimed at more than one candidate on the same side —
-a primary, for instance — so the candidate columns carry the candidate who
-received the most on that side. A blank oppose side means there was no
-opposing spending in that race, not missing data.
-
-### `recent_expenditures.csv`
-
-The 100 most recent expenditures, newest first. A slice of `expenditures.csv`
-with the display columns only: `spend_date`, `race_id`, `race_name`,
-`candidate_name`, `support_oppose`, `amount`, `payee_name`, `purpose`,
-`pdf_url`.
-
 ### `expenditures.csv`
 
-Every expenditure, one row each. This is the file the totals are built from —
-filter it to a race and you get exactly the rows behind that number.
+Every expenditure, one row each, in the 2024 and 2026 cycles. Every total in
+the other files is built from these rows: filter to a race and you get exactly
+the payments behind its number.
 
 Roughly grouped, the columns are:
 
 - **what happened** — `spend_date`, `amount`, `support_oppose`, `purpose`, `payee_name`
-- **who it was about** — `race_id`, `race_name`, `candidate_id`, `candidate_name`, `fec_candidate_name`, `office`, `state`, `district`
-- **the receipt** — `transaction_id`, `sub_id`, `file_number`, `filing_form`, `report_type`, `image_number`, `pdf_url`
-- **the raw dates** — `expenditure_date`, `disbursement_date`, `dissemination_date`
+- **who it was about** — `race_id`, `race_name`, `candidate_id`, `candidate_name`, `fec_candidate_name`, `party`, `office`, `state`, `district`
+- **the receipt** — `transaction_id`, `sub_id`, `file_number`, `filing_form`, `report_type`, `image_number`, `pdf_url` (opens the filing on the FEC's site)
+- **the dates** — `expenditure_date`, `disbursement_date`, `dissemination_date`
 - **the election** — `election_type`: `G2026` is the 2026 general, `S2025` a 2025 special election
 - **how the race was decided** — `race_id_source`, `race_disagreement`, `race_id_inline`, `race_id_candidate`
 
-`pdf_url` opens the filing on the FEC's DocQuery.
+`candidate_name` is the name the candidate campaigns under (`Ken Paxton`);
+`fec_candidate_name` is the FEC's own string (`PAXTON, WARREN KENNETH JR`).
+See `display_names.csv` below.
 
-`candidate_name` is the readable form — `Marie Gluesenkamp Perez`, not
-`GLUESENKAMP PEREZ, MARIE`. `fec_candidate_name` keeps the FEC's own string so
-nothing is lost by publishing a readable one. Names come from
-`display_names.csv`, one row per FEC candidate ID: the form the candidate
-actually campaigns under where research found it, the FEC string mechanically
-reordered and recased where it did not.
+### `race_totals.csv`
 
-### `display_names.csv`
+One row per race in the 2026 cycle: `race_id` (`2026-H-NY-17`, `2026-S-TX`),
+the supported and opposed candidates and their parties, `support_amount`,
+`oppose_amount`, `total_amount`, `expenditure_count` and `last_spend_date`.
 
-A lookup from FEC candidate ID to the name used on screen: `candidate_id`,
-`display_name`, one row per candidate. The names come from three sources —
-the congressional roster, certified state ballot lists, and candidate
-committee filings. Where none of those resolved a name, the FEC's own string
-is reordered and recased.
+A race can have spending aimed at more than one candidate on the same side, in
+a primary for instance, so the candidate columns name the one who drew the
+most on that side. A blank oppose side means nothing was spent opposing
+anyone in that race.
+
+The FEC's 2026 cycle also covers 2025, so this file includes the April 2025
+Florida special elections (`2025-H-FL-01`, `2025-H-FL-06`).
 
 ### `embed_*.csv`
 
 The five files WIRED's candidate-spending graphic reads, already added up so
-the graphic does no arithmetic of its own. They cover the 2026 cycle, and
-their dates are the day each payment was made (`disbursement_date`).
+the graphic does no arithmetic of its own. They cover only races held in 2026
+(the midterms), so the 2025 Florida specials are left out, and their dates are
+the day each payment was made (`disbursement_date`).
 
 | file | |
 | --- | --- |
-| `embed_races.csv` | one row per race, amounts in whole dollars, with its newest payment and a `special_election` label |
+| `embed_races.csv` | one row per race, with its newest payment |
 | `embed_payments.csv` | one row per expenditure, newest first within each race, with a `filing_url` |
 | `embed_states.csv` | one row per state, split by chamber and by supporting/opposing |
 | `embed_summary.csv` | one row: the graphic's headline figures and shares |
 | `embed_daily.csv` | running totals by day, nationally and by state, for its charts |
 
-Amounts that are added up are rounded to the dollar once, at the smallest
-level shown, and then added, so a state's Senate and House figures always sum
-to its total. `expenditures.csv` keeps the cents.
+Totals are in whole dollars, rounded once at the smallest level shown and then
+added, so a state's Senate and House figures always sum to its total.
+`expenditures.csv` keeps the cents.
 
-### `committee_reports.csv`
+### `display_names.csv`
 
-One row per financial report the committee filed. Where `expenditures.csv` says
-what was spent on candidates, this says what the committee raised, what it
-spent in total, and what it held.
-
-| column | |
-| --- | --- |
-| `report_type` / `report_type_full` | `Q2`, `JULY QUARTERLY` |
-| `coverage_start_date` / `coverage_end_date` | the months the report covers |
-| `receipt_date` | when the FEC received it |
-| `total_receipts_period` | raised during the covered period |
-| `total_disbursements_period` | spent during the covered period |
-| `cash_on_hand_beginning_period` / `cash_on_hand_end_period` | balance at each end |
-| `debts_owed_by_committee` | outstanding debts |
-
-Nothing is disclosed between reports. The committee files a few times a year,
-so the gaps between coverage periods are unreported rather than quiet.
-
-Amended reports are dropped. The API returns both the original and the
-correction, and returns a `most_recent` field but ignores `most_recent` as a
-query parameter. `is_amended=false` is what removes the superseded copies.
-
-### `committee_report_lines.csv`
-
-The named categories inside each report, in long form: one row per line item.
-`side` is `in` or `out`, `label` is the category, `amount` is the figure for
-that covered period. Join to `committee_reports.csv` on `coverage_end_date`.
-
-A period can have every dollar in one category, in which case the others are
-zero. That is the filing, not a gap in the data.
+How each FEC candidate ID is named in these files: `candidate_id`,
+`display_name`. FEC names are often not the names candidates go by ("FEELY,
+THOMAS JAMES" campaigns as Jay Feely), so WIRED compiled display names from
+the congressional roster, certified state ballot lists, campaign committee
+names and news coverage, and reviews them. A candidate not on this list
+appears under the FEC's name, reordered (`Ryan Edward Mackenzie`).
 
 ## Two things to know before you recompute this
 
-**1. The FEC reports the same expenditure twice.**
+**1. The FEC reports the same expenditure more than once.**
 
 A committee spending close to an election files a 24- or 48-hour notice
 (Form 24), then reports that same expenditure again on its next quarterly
-report (Form 3X). Both copies stay in the API permanently, and both are
-flagged `most_recent = true`.
+report (Form 3X). Both copies stay in the FEC's data permanently.
 
-Summing raw Schedule E rows for America PAC gives **$360,259,079.06**. The
-real figure is **$174,637,011.09**.
+As of Oct. 1, 2026, summing the FEC's 2,992 raw rows for America PAC gives
+**$382,498,258.23**; the 1,682 real expenditures behind them total
+**$196,876,190.26**.
 
 An expenditure keeps its `transaction_id` across both filings, so
 `committee_id` + `cycle` + `transaction_id` identifies one real expenditure.
 That is what these files are grouped on.
 
-Do not deduplicate on date, amount and payee together: `SE24.644` and
+Don't deduplicate on date, amount and payee together: `SE24.644` and
 `SE24.645` are two separate $111,111 payments to the same vendor on the same
 day, and collapsing them deletes real spending.
 
-**2. Our totals run about $705,000 above the FEC's own.**
+**2. Our totals run about $730,000 above the FEC's own.**
 
-18 filings carry a candidate ID that matches nobody who ran in that cycle.
-The cause is mundane: a person gets a new FEC candidate ID each time they
-register a campaign, and the committee wrote down an earlier one.
+Nineteen filings carry a candidate ID that matches nobody who ran in that
+cycle. The cause is mundane: a person gets a new FEC candidate ID each time
+they register a campaign, and the committee wrote down an earlier one.
 
 ```text
 NJ-07   H0NJ07089  "KEAN, TOM"             <- what the filing said
@@ -155,7 +105,7 @@ WA-03   H4HI02116  "KENT, JOE"             <- a 2014 Hawaii registration
 
 The office, state and district the committee wrote are correct in every one of
 these, so we assign the race from those fields and keep the spending. The FEC's
-own `by_candidate` totals drop these rows.
+own per-candidate totals drop these rows.
 
 Filter `expenditures.csv` on `race_id_source = "unmatched_candidate_id"` to see
 them. `race_id_source` records how every row was assigned:
@@ -165,14 +115,14 @@ them. `race_id_source` records how every row was assigned:
 | `candidate_id` | matched a candidate who ran that cycle; race from the FEC candidate registry |
 | `unmatched_candidate_id` | ID matched nobody that cycle; race from the committee's own office fields |
 | `filing_fields` | no candidate ID on the filing; race from the committee's own office fields |
-| `unresolved` | no race could be determined; excluded from `race_totals.csv` |
+| `unresolved` | no race could be determined; left out of the totals |
 
-Otherwise these numbers reconcile against the FEC's published per-candidate
-totals for the completed 2024 cycle exactly, across every race.
+Otherwise these numbers match the FEC's published per-candidate totals for the
+completed 2024 cycle exactly, race for race.
 
 ## Source
 
-FEC API. Independent expenditures from Schedule E (`/schedules/schedule_e/`),
-candidate records from `/candidates/totals/`, and financial reports from
-`/committee/{id}/reports/`. Nothing here is scraped, and no figure is derived
-from free text: races come from structured FEC fields only.
+The FEC API: independent expenditures from Schedule E
+(`/schedules/schedule_e/`) and candidate records from `/candidates/totals/`.
+Nothing is scraped, and no race is inferred from free text: races come from
+structured FEC fields only.

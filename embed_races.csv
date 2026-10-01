@@ -31,7 +31,6 @@ race_id,race_name,state,state_abbr,seat,support_candidate,support_party,support_
 2026-H-IA-03,IA-03 (2026),IA,IA,district 3,Zachary Nunn,REP,16676,Sarah Trone Garriott,DEM,76514,2026,93190,5,2026-09-29,oppose,28477.61,Sarah Trone Garriott,DEM,,Iowa,3
 2026-H-IA-02,IA-02 (2026),IA,IA,district 2,Joe Mitchell,REP,14793,Lindsay James,DEM,72493,2026,87286,5,2026-09-29,oppose,26904.53,Lindsay James,DEM,,Iowa,2
 2026-H-TX-34,TX-34 (2026),TX,TX,district 34,Eric Flores,REP,27195,Vicente Gonzalez,DEM,53632,2026,80827,8,2026-09-28,oppose,1690.85,Vicente Gonzalez,DEM,,Texas,34
-2025-H-FL-06,FL-06 (2025),FL,FL,district 6,Randy Fine,REP,76889,,,0,2026,76889,2,2025-03-26,support,66644.64,Randy Fine,REP,2025 special election,Florida,6
 2026-H-MI-07,MI-07 (2026),MI,MI,district 7,Tom Barrett,REP,18180,William Lawrence,DEM,50021,2026,68201,9,2026-09-24,oppose,26198.12,William Lawrence,DEM,,Michigan,7
 2026-H-MI-10,MI-10 (2026),MI,MI,district 10,Michael Bouchard,REP,11686,Christina Hines,DEM,36882,2026,48568,9,2026-09-24,oppose,17242.94,Christina Hines,DEM,,Michigan,10
 2026-H-MI-08,MI-08 (2026),MI,MI,district 8,Tom Smith,REP,17595,Kristen McDonald Rivet,DEM,24163,2026,41758,8,2026-09-24,oppose,10000.00,Kristen McDonald Rivet,DEM,,Michigan,8
@@ -39,5 +38,4 @@ race_id,race_name,state,state_abbr,seat,support_candidate,support_party,support_
 2026-H-OH-09,OH-09 (2026),OH,OH,district 9,Derek Merrin,REP,21682,Marcy Kaptur,DEM,11554,2026,33236,6,2026-09-28,support,8463.19,Derek Merrin,REP,,Ohio,9
 2026-H-OH-13,OH-13 (2026),OH,OH,district 13,Carey Coleman,REP,21437,Emilia Strong Sykes,DEM,11752,2026,33189,6,2026-09-28,oppose,8472.00,Emilia Strong Sykes,DEM,,Ohio,13
 2026-H-OH-07,OH-07 (2026),OH,OH,district 7,Max L. Miller,REP,12546,Brian Poindexter,DEM,12245,2026,24791,4,2026-09-28,oppose,8805.56,Brian Poindexter,DEM,,Ohio,7
-2025-H-FL-01,FL-01 (2025),FL,FL,district 1,Jimmy Patronis,REP,10244,,,0,2026,10244,1,2025-03-25,support,10244.45,Jimmy Patronis,REP,2025 special election,Florida,1
 2026-H-NH-02,NH-02 (2026),NH,NH,district 2,Lily Tang Williams,REP,8016,Maggie Goodlander,DEM,1811,2026,9827,2,2026-09-28,oppose,1810.76,Maggie Goodlander,DEM,,New Hampshire,2
