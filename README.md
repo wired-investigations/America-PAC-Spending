@@ -10,9 +10,9 @@ from.
 
 ### `expenditures.csv`
 
-Every expenditure, one row each, in the 2024 and 2026 cycles. Every total in
-the other files is built from these rows: filter to a race and you get exactly
-the payments behind its number.
+Every expenditure in the 2026 election cycle (January 2025 onward), one row
+each. Every total in the other files is built from these rows: filter to a
+race and you get exactly the payments behind its number.
 
 Roughly grouped, the columns are:
 
@@ -75,40 +75,26 @@ appears under the FEC's name, reordered (`Ryan Edward Mackenzie`).
 
 A committee spending close to an election files a 24- or 48-hour notice
 (Form 24), then reports that same expenditure again on its next quarterly
-report (Form 3X). Both copies stay in the FEC's data permanently.
-
-As of Oct. 1, 2026, summing the FEC's 2,992 raw rows for America PAC gives
-**$382,498,258.23**; the 1,682 real expenditures behind them total
-**$196,876,190.26**.
+report (Form 3X). Both copies stay in the FEC's data permanently, so summing
+the FEC's raw rows counts much of the spending twice.
 
 An expenditure keeps its `transaction_id` across both filings, so
 `committee_id` + `cycle` + `transaction_id` identifies one real expenditure.
 That is what these files are grouped on.
 
-Don't deduplicate on date, amount and payee together: `SE24.644` and
-`SE24.645` are two separate $111,111 payments to the same vendor on the same
+Don't deduplicate on date, amount and payee together: the committee sometimes
+makes two separate payments of the same amount to the same vendor on the same
 day, and collapsing them deletes real spending.
 
-**2. Our totals run about $730,000 above the FEC's own.**
+**2. One payment isn't in the FEC's own per-candidate totals.**
 
-Nineteen filings carry a candidate ID that matches nobody who ran in that
-cycle. The cause is mundane: a person gets a new FEC candidate ID each time
-they register a campaign, and the committee wrote down an earlier one.
+A Sept. 18, 2026, payment of $24,521.50 supporting Ryan Mackenzie in PA-07
+was filed under an old candidate ID that matches no 2026 candidate. People get
+a new FEC candidate ID each time they register a campaign, and the committee
+wrote down an earlier one. The filing names the office, state and district,
+so we count it in PA-07; the FEC's per-candidate totals leave it out.
 
-```text
-NJ-07   H0NJ07089  "KEAN, TOM"             <- what the filing said
-        H0NJ07261  "KEAN, THOMAS H. JR."   <- his 2024 registration
-
-WA-03   H4HI02116  "KENT, JOE"             <- a 2014 Hawaii registration
-        H2WA03100  "KENT, JOSEPH"          <- his 2024 registration
-```
-
-The office, state and district the committee wrote are correct in every one of
-these, so we assign the race from those fields and keep the spending. The FEC's
-own per-candidate totals drop these rows.
-
-Filter `expenditures.csv` on `race_id_source = "unmatched_candidate_id"` to see
-them. `race_id_source` records how every row was assigned:
+`race_id_source` records how every row was assigned to a race:
 
 | value | meaning |
 | --- | --- |
@@ -117,8 +103,8 @@ them. `race_id_source` records how every row was assigned:
 | `filing_fields` | no candidate ID on the filing; race from the committee's own office fields |
 | `unresolved` | no race could be determined; left out of the totals |
 
-Otherwise these numbers match the FEC's published per-candidate totals for the
-completed 2024 cycle exactly, race for race.
+We tested this method against the FEC's own totals for the completed 2024
+cycle, and every race matched to the cent.
 
 ## Source
 

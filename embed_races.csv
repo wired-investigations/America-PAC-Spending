@@ -6,7 +6,7 @@ race_id,race_name,state,state_abbr,seat,support_candidate,support_party,support_
 2026-S-ME,ME Senate (2026),ME,ME,senate,Susan M. Collins,REP,349406,Troy Jackson,DEM,586336,2026,935742,28,2026-09-25,oppose,5632.55,Troy Jackson,DEM,,Maine,
 2026-S-NH,NH Senate (2026),NH,NH,senate,John Sununu,REP,217294,Chris Pappas,DEM,557389,2026,774683,28,2026-09-25,support,16034.73,John Sununu,REP,,New Hampshire,
 2026-S-AK,AK Senate (2026),AK,AK,senate,Dan Sullivan,REP,186525,Mary Peltola,DEM,336301,2026,522826,25,2026-09-28,oppose,550.21,Mary Peltola,DEM,,Alaska,
-2026-H-VA-02,VA-02 (2026),VA,VA,district 2,Jennifer A. Kiggans,REP,69438,Elaine G. Luria,DEM,205467,2026,274905,14,2026-09-29,oppose,40606.39,Elaine G. Luria,DEM,,Virginia,2
+2026-H-VA-02,VA-02 (2026),VA,VA,district 2,Jen Kiggans,REP,69438,Elaine Luria,DEM,205467,2026,274905,14,2026-09-29,oppose,40606.39,Elaine Luria,DEM,,Virginia,2
 2026-H-WA-03,WA-03 (2026),WA,WA,district 3,John Braun,REP,194953,Marie Gluesenkamp Perez,DEM,16969,2026,211922,7,2026-09-29,oppose,16969.15,Marie Gluesenkamp Perez,DEM,,Washington,3
 2026-H-TX-35,TX-35 (2026),TX,TX,district 35,Carlos De La Cruz,REP,39240,Johnny Garcia,DEM,167717,2026,206957,11,2026-09-28,oppose,43500.00,Johnny Garcia,DEM,,Texas,35
 2026-H-AZ-01,AZ-01 (2026),AZ,AZ,district 1,Jay Feely,REP,205736,,,0,2026,205736,5,2026-09-24,support,52012.62,Jay Feely,REP,,Arizona,1
@@ -14,7 +14,7 @@ race_id,race_name,state,state_abbr,seat,support_candidate,support_party,support_
 2026-H-ME-02,ME-02 (2026),ME,ME,district 2,Paul LePage,REP,68238,Matt Dunlap,DEM,101289,2026,169527,12,2026-09-24,support,1322.44,Paul LePage,REP,,Maine,2
 2026-H-NH-01,NH-01 (2026),NH,NH,district 1,Anthony DiLorenzo,REP,75964,Stefany Shaheen,DEM,92978,2026,168942,8,2026-09-28,support,25288.50,Anthony DiLorenzo,REP,,New Hampshire,1
 2026-H-FL-25,FL-25 (2026),FL,FL,district 25,Scott Singer,REP,58099,Jared Moskowitz,DEM,108029,2026,166128,17,2026-09-29,oppose,25828.96,Jared Moskowitz,DEM,,Florida,25
-2026-H-PA-08,PA-08 (2026),PA,PA,district 8,"Robert P. Bresnahan, Jr.",REP,83852,Paige Cognetti,DEM,76141,2026,159993,9,2026-09-29,oppose,8132.65,Paige Cognetti,DEM,,Pennsylvania,8
+2026-H-PA-08,PA-08 (2026),PA,PA,district 8,Rob Bresnahan,REP,83852,Paige Cognetti,DEM,76141,2026,159993,9,2026-09-29,oppose,8132.65,Paige Cognetti,DEM,,Pennsylvania,8
 2026-H-IA-01,IA-01 (2026),IA,IA,district 1,Mariannette Miller-Meeks,REP,15923,Christina Bohannan,DEM,140346,2026,156269,6,2026-09-29,oppose,28797.06,Christina Bohannan,DEM,,Iowa,1
 2026-H-PA-10,PA-10 (2026),PA,PA,district 10,Scott Perry,REP,79565,Janelle Stelson,DEM,72024,2026,151589,9,2026-09-29,oppose,7764.94,Janelle Stelson,DEM,,Pennsylvania,10
 2026-H-WI-03,WI-03 (2026),WI,WI,district 3,Derrick Van Orden,REP,73182,Rebecca Cooke,DEM,76555,2026,149737,10,2026-09-29,oppose,23818.00,Rebecca Cooke,DEM,,Wisconsin,3
@@ -34,8 +34,8 @@ race_id,race_name,state,state_abbr,seat,support_candidate,support_party,support_
 2026-H-MI-07,MI-07 (2026),MI,MI,district 7,Tom Barrett,REP,18180,William Lawrence,DEM,50021,2026,68201,9,2026-09-24,oppose,26198.12,William Lawrence,DEM,,Michigan,7
 2026-H-MI-10,MI-10 (2026),MI,MI,district 10,Michael Bouchard,REP,11686,Christina Hines,DEM,36882,2026,48568,9,2026-09-24,oppose,17242.94,Christina Hines,DEM,,Michigan,10
 2026-H-MI-08,MI-08 (2026),MI,MI,district 8,Tom Smith,REP,17595,Kristen McDonald Rivet,DEM,24163,2026,41758,8,2026-09-24,oppose,10000.00,Kristen McDonald Rivet,DEM,,Michigan,8
-2026-H-OH-05,OH-05 (2026),OH,OH,district 5,Robert E. Latta,REP,22912,Brian Shaver,DEM,12850,2026,35762,6,2026-09-28,oppose,8799.94,Brian Shaver,DEM,,Ohio,5
+2026-H-OH-05,OH-05 (2026),OH,OH,district 5,Bob Latta,REP,22912,Brian Shaver,DEM,12850,2026,35762,6,2026-09-28,oppose,8799.94,Brian Shaver,DEM,,Ohio,5
 2026-H-OH-09,OH-09 (2026),OH,OH,district 9,Derek Merrin,REP,21682,Marcy Kaptur,DEM,11554,2026,33236,6,2026-09-28,support,8463.19,Derek Merrin,REP,,Ohio,9
-2026-H-OH-13,OH-13 (2026),OH,OH,district 13,Carey Coleman,REP,21437,Emilia Strong Sykes,DEM,11752,2026,33189,6,2026-09-28,oppose,8472.00,Emilia Strong Sykes,DEM,,Ohio,13
-2026-H-OH-07,OH-07 (2026),OH,OH,district 7,Max L. Miller,REP,12546,Brian Poindexter,DEM,12245,2026,24791,4,2026-09-28,oppose,8805.56,Brian Poindexter,DEM,,Ohio,7
+2026-H-OH-13,OH-13 (2026),OH,OH,district 13,Carey Coleman,REP,21437,Emilia Sykes,DEM,11752,2026,33189,6,2026-09-28,oppose,8472.00,Emilia Sykes,DEM,,Ohio,13
+2026-H-OH-07,OH-07 (2026),OH,OH,district 7,Max Miller,REP,12546,Brian Poindexter,DEM,12245,2026,24791,4,2026-09-28,oppose,8805.56,Brian Poindexter,DEM,,Ohio,7
 2026-H-NH-02,NH-02 (2026),NH,NH,district 2,Lily Tang Williams,REP,8016,Maggie Goodlander,DEM,1811,2026,9827,2,2026-09-28,oppose,1810.76,Maggie Goodlander,DEM,,New Hampshire,2
