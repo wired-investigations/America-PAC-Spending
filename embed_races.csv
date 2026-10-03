@@ -1,5 +1,5 @@
 race_id,race_name,state,state_abbr,seat,support_candidate,support_party,support_amount,oppose_candidate,oppose_party,oppose_amount,cycle,total_amount,payment_count,latest_payment_date,latest_payment_direction,latest_payment_amount,latest_payment_candidate,latest_payment_party,special_election,state_name,district
-2026-S-TX,TX Senate (2026),TX,TX,senate,Ken Paxton,REP,1093718,James Talarico,DEM,6403097,2026,7496815,28,2026-09-29,oppose,553223.32,James Talarico,DEM,,Texas,
+2026-S-TX,TX Senate (2026),TX,TX,senate,Ken Paxton,REP,1093718,James Talarico,DEM,6533845,2026,7627563,29,2026-10-01,oppose,130747.90,James Talarico,DEM,,Texas,
 2026-S-MI,MI Senate (2026),MI,MI,senate,Mike Rogers,REP,1479742,Abdul El-Sayed,DEM,2486172,2026,3965914,53,2026-09-30,support,13577.46,Mike Rogers,REP,,Michigan,
 2026-S-OH,OH Senate (2026),OH,OH,senate,Jon Husted,REP,1373718,Sherrod Brown,DEM,2585080,2026,3958798,61,2026-09-30,oppose,2149.18,Sherrod Brown,DEM,,Ohio,
 2026-S-IA,IA Senate (2026),IA,IA,senate,Ashley Hinson,REP,100969,Josh Turek,DEM,1377266,2026,1478235,22,2026-09-30,oppose,4885.05,Josh Turek,DEM,,Iowa,
@@ -7,33 +7,33 @@ race_id,race_name,state,state_abbr,seat,support_candidate,support_party,support_
 2026-S-NH,NH Senate (2026),NH,NH,senate,John Sununu,REP,217294,Chris Pappas,DEM,557389,2026,774683,28,2026-09-25,support,16034.73,John Sununu,REP,,New Hampshire,
 2026-S-AK,AK Senate (2026),AK,AK,senate,Dan Sullivan,REP,186525,Mary Peltola,DEM,389801,2026,576326,26,2026-09-30,oppose,53500.00,Mary Peltola,DEM,,Alaska,
 2026-H-WA-03,WA-03 (2026),WA,WA,district 3,John Braun,REP,269872,Marie Gluesenkamp Perez,DEM,47469,2026,317341,10,2026-09-30,support,44419.33,John Braun,REP,,Washington,3
+2026-H-AZ-06,AZ-06 (2026),AZ,AZ,district 6,Juan Ciscomani,REP,279558,JoAnna Mendoza,DEM,30042,2026,309600,8,2026-10-01,oppose,30041.78,JoAnna Mendoza,DEM,,Arizona,6
 2026-H-VA-02,VA-02 (2026),VA,VA,district 2,Jen Kiggans,REP,69438,Elaine Luria,DEM,218967,2026,288405,15,2026-09-30,oppose,13500.00,Elaine Luria,DEM,,Virginia,2
 2026-H-AZ-01,AZ-01 (2026),AZ,AZ,district 1,Jay Feely,REP,281565,,,0,2026,281565,7,2026-09-30,support,52012.62,Jay Feely,REP,,Arizona,1
-2026-H-AZ-06,AZ-06 (2026),AZ,AZ,district 6,Juan Ciscomani,REP,249516,,,0,2026,249516,6,2026-09-30,support,49730.47,Juan Ciscomani,REP,,Arizona,6
-2026-H-WI-03,WI-03 (2026),WI,WI,district 3,Derrick Van Orden,REP,84941,Rebecca Cooke,DEM,125314,2026,210255,13,2026-09-30,oppose,37000.00,Rebecca Cooke,DEM,,Wisconsin,3
+2026-H-ME-02,ME-02 (2026),ME,ME,district 2,Paul LePage,REP,103633,Matt Dunlap,DEM,136684,2026,240317,16,2026-10-01,oppose,25145.07,Matt Dunlap,DEM,,Maine,2
+2026-H-FL-25,FL-25 (2026),FL,FL,district 25,Scott Singer,REP,94022,Jared Moskowitz,DEM,143951,2026,237973,21,2026-10-01,oppose,24559.59,Jared Moskowitz,DEM,,Florida,25
+2026-H-PA-08,PA-08 (2026),PA,PA,district 8,Rob Bresnahan,REP,83852,Paige Cognetti,DEM,152864,2026,236716,10,2026-10-01,oppose,76723.61,Paige Cognetti,DEM,,Pennsylvania,8
+2026-H-NJ-07,NJ-07 (2026),NJ,NJ,district 7,"Thomas H. Kean, Jr.",REP,129279,Rebecca Bennett,DEM,105385,2026,234664,13,2026-10-01,oppose,32775.83,Rebecca Bennett,DEM,,New Jersey,7
+2026-H-NH-01,NH-01 (2026),NH,NH,district 1,Anthony DiLorenzo,REP,105726,Stefany Shaheen,DEM,122739,2026,228465,12,2026-10-01,support,19511.94,Anthony DiLorenzo,REP,,New Hampshire,1
+2026-H-NY-17,NY-17 (2026),NY,NY,district 17,Michael Lawler,REP,123882,Cait Conley,DEM,102072,2026,225954,14,2026-10-01,support,30249.14,Michael Lawler,REP,,New York,17
+2026-H-PA-10,PA-10 (2026),PA,PA,district 10,Scott Perry,REP,79565,Janelle Stelson,DEM,143824,2026,223389,10,2026-10-01,oppose,71799.41,Janelle Stelson,DEM,,Pennsylvania,10
+2026-H-WI-03,WI-03 (2026),WI,WI,district 3,Derrick Van Orden,REP,84941,Rebecca Cooke,DEM,135666,2026,220607,14,2026-10-01,oppose,10352.12,Rebecca Cooke,DEM,,Wisconsin,3
+2026-H-PA-07,PA-07 (2026),PA,PA,district 7,Ryan Mackenzie,REP,77999,Bob Brooks,DEM,140409,2026,218408,10,2026-10-01,oppose,70476.74,Bob Brooks,DEM,,Pennsylvania,7
 2026-H-TX-35,TX-35 (2026),TX,TX,district 35,Carlos De La Cruz,REP,39240,Johnny Garcia,DEM,167717,2026,206957,11,2026-09-28,oppose,43500.00,Johnny Garcia,DEM,,Texas,35
-2026-H-FL-25,FL-25 (2026),FL,FL,district 25,Scott Singer,REP,69462,Jared Moskowitz,DEM,119392,2026,188854,19,2026-09-30,oppose,11363.10,Jared Moskowitz,DEM,,Florida,25
-2026-H-ME-02,ME-02 (2026),ME,ME,district 2,Paul LePage,REP,68238,Matt Dunlap,DEM,101289,2026,169527,12,2026-09-24,support,1322.44,Paul LePage,REP,,Maine,2
-2026-H-NH-01,NH-01 (2026),NH,NH,district 1,Anthony DiLorenzo,REP,75964,Stefany Shaheen,DEM,92978,2026,168942,8,2026-09-28,support,25288.50,Anthony DiLorenzo,REP,,New Hampshire,1
-2026-H-CA-22,CA-22 (2026),CA,CA,district 22,David G. Valadao,REP,164443,,,0,2026,164443,7,2026-09-30,support,28037.76,David G. Valadao,REP,,California,22
-2026-H-PA-08,PA-08 (2026),PA,PA,district 8,Rob Bresnahan,REP,83852,Paige Cognetti,DEM,76141,2026,159993,9,2026-09-29,oppose,8132.65,Paige Cognetti,DEM,,Pennsylvania,8
-2026-H-IA-01,IA-01 (2026),IA,IA,district 1,Mariannette Miller-Meeks,REP,15923,Christina Bohannan,DEM,140346,2026,156269,6,2026-09-29,oppose,28797.06,Christina Bohannan,DEM,,Iowa,1
-2026-H-CO-08,CO-08 (2026),CO,CO,district 8,Gabe Evans,REP,153259,,,0,2026,153259,6,2026-09-30,support,28992.58,Gabe Evans,REP,,Colorado,8
-2026-H-PA-10,PA-10 (2026),PA,PA,district 10,Scott Perry,REP,79565,Janelle Stelson,DEM,72024,2026,151589,9,2026-09-29,oppose,7764.94,Janelle Stelson,DEM,,Pennsylvania,10
-2026-H-PA-07,PA-07 (2026),PA,PA,district 7,Ryan Mackenzie,REP,77999,Bob Brooks,DEM,69932,2026,147931,9,2026-09-29,oppose,7778.75,Bob Brooks,DEM,,Pennsylvania,7
+2026-H-CA-22,CA-22 (2026),CA,CA,district 22,David G. Valadao,REP,182141,Randy Villegas,DEM,17699,2026,199840,9,2026-10-01,support,17698.73,David G. Valadao,REP,,California,22
+2026-H-CO-08,CO-08 (2026),CO,CO,district 8,Gabe Evans,REP,153259,Manny Rutinel,DEM,36213,2026,189472,7,2026-10-01,oppose,36213.01,Manny Rutinel,DEM,,Colorado,8
+2026-H-MI-04,MI-04 (2026),MI,MI,district 4,Bill Huizenga,REP,46943,Sean McCann,DEM,137658,2026,184601,14,2026-10-01,support,23615.97,Bill Huizenga,REP,,Michigan,4
+2026-H-IA-01,IA-01 (2026),IA,IA,district 1,Mariannette Miller-Meeks,REP,15923,Christina Bohannan,DEM,152761,2026,168684,8,2026-10-01,oppose,10654.16,Christina Bohannan,DEM,,Iowa,1
 2026-H-TX-15,TX-15 (2026),TX,TX,district 15,Monica De La Cruz,REP,29638,Bobby Pulido,DEM,111998,2026,141636,9,2026-09-28,oppose,53500.00,Bobby Pulido,DEM,,Texas,15
-2026-H-MI-04,MI-04 (2026),MI,MI,district 4,Bill Huizenga,REP,23328,Sean McCann,DEM,114042,2026,137370,12,2026-09-30,oppose,9129.94,Sean McCann,DEM,,Michigan,4
-2026-H-NJ-07,NJ-07 (2026),NJ,NJ,district 7,"Thomas H. Kean, Jr.",REP,72583,Rebecca Bennett,DEM,48689,2026,121272,9,2026-09-29,oppose,23920.00,Rebecca Bennett,DEM,,New Jersey,7
-2026-H-NY-17,NY-17 (2026),NY,NY,district 17,Michael Lawler,REP,70683,Cait Conley,DEM,48874,2026,119557,10,2026-09-29,oppose,22949.17,Cait Conley,DEM,,New York,17
+2026-H-MI-07,MI-07 (2026),MI,MI,district 7,Tom Barrett,REP,54320,William Lawrence,DEM,86161,2026,140481,13,2026-10-01,support,24034.31,Tom Barrett,REP,,Michigan,7
 2026-H-TX-28,TX-28 (2026),TX,TX,district 28,Tano Tijerina,REP,39968,Henry Cuellar,DEM,79211,2026,119179,9,2026-09-28,oppose,2530.88,Henry Cuellar,DEM,,Texas,28
+2026-H-MI-08,MI-08 (2026),MI,MI,district 8,Tom Smith,REP,56026,Kristen McDonald Rivet,DEM,62594,2026,118620,12,2026-10-01,oppose,24853.54,Kristen McDonald Rivet,DEM,,Michigan,8
 2026-H-TX-23,TX-23 (2026),TX,TX,district 23,Brandon Herrera,REP,43581,Katy Padilla Stout,DEM,73451,2026,117032,8,2026-09-28,oppose,2524.20,Katy Padilla Stout,DEM,,Texas,23
+2026-H-IA-03,IA-03 (2026),IA,IA,district 3,Zachary Nunn,REP,17594,Sarah Trone Garriott,DEM,88190,2026,105784,8,2026-10-01,oppose,10757.54,Sarah Trone Garriott,DEM,,Iowa,3
+2026-H-IA-02,IA-02 (2026),IA,IA,district 2,Joe Mitchell,REP,15607,Lindsay James,DEM,82867,2026,98474,8,2026-10-01,oppose,9559.87,Lindsay James,DEM,,Iowa,2
 2026-H-OH-01,OH-01 (2026),OH,OH,district 1,Eric Conroy,REP,23825,Greg Landsman,DEM,72345,2026,96170,8,2026-09-30,oppose,1523.56,Greg Landsman,DEM,,Ohio,1
-2026-H-IA-03,IA-03 (2026),IA,IA,district 3,Zachary Nunn,REP,16676,Sarah Trone Garriott,DEM,76514,2026,93190,5,2026-09-29,oppose,28477.61,Sarah Trone Garriott,DEM,,Iowa,3
-2026-H-MI-07,MI-07 (2026),MI,MI,district 7,Tom Barrett,REP,30285,William Lawrence,DEM,62127,2026,92412,11,2026-09-30,oppose,12105.04,William Lawrence,DEM,,Michigan,7
-2026-H-IA-02,IA-02 (2026),IA,IA,district 2,Joe Mitchell,REP,14793,Lindsay James,DEM,72493,2026,87286,5,2026-09-29,oppose,26904.53,Lindsay James,DEM,,Iowa,2
+2026-H-MI-10,MI-10 (2026),MI,MI,district 10,Michael Bouchard,REP,35438,Christina Hines,DEM,60634,2026,96072,13,2026-10-01,support,15565.46,Michael Bouchard,REP,,Michigan,10
 2026-H-TX-34,TX-34 (2026),TX,TX,district 34,Eric Flores,REP,27195,Vicente Gonzalez,DEM,53632,2026,80827,8,2026-09-28,oppose,1690.85,Vicente Gonzalez,DEM,,Texas,34
-2026-H-MI-08,MI-08 (2026),MI,MI,district 8,Tom Smith,REP,31172,Kristen McDonald Rivet,DEM,37741,2026,68913,10,2026-09-30,oppose,13577.45,Kristen McDonald Rivet,DEM,,Michigan,8
-2026-H-MI-10,MI-10 (2026),MI,MI,district 10,Michael Bouchard,REP,19873,Christina Hines,DEM,45068,2026,64941,11,2026-09-30,oppose,8186.81,Christina Hines,DEM,,Michigan,10
 2026-H-OH-05,OH-05 (2026),OH,OH,district 5,Bob Latta,REP,22912,Brian Shaver,DEM,14811,2026,37723,7,2026-09-30,oppose,1960.73,Brian Shaver,DEM,,Ohio,5
 2026-H-OH-09,OH-09 (2026),OH,OH,district 9,Derek Merrin,REP,21682,Marcy Kaptur,DEM,13556,2026,35238,7,2026-09-30,oppose,2001.43,Marcy Kaptur,DEM,,Ohio,9
 2026-H-OH-13,OH-13 (2026),OH,OH,district 13,Carey Coleman,REP,21437,Emilia Sykes,DEM,13408,2026,34845,7,2026-09-30,oppose,1655.91,Emilia Sykes,DEM,,Ohio,13
