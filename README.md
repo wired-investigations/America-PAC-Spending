@@ -3,8 +3,9 @@
 Independent expenditures reported to the Federal Election Commission by
 **America PAC** (committee `C00879510`), cleaned and totalled by WIRED.
 
-Updated twice daily from the FEC. Every row links back to the filing it came
-from.
+Checked against the FEC twice daily; `fec_checked_at` in `embed_summary.csv`
+says when we last looked, even if nothing new had been filed. Every row links
+back to the filing it came from.
 
 ## The files
 
@@ -53,7 +54,7 @@ the day each payment was made (`disbursement_date`).
 | `embed_races.csv` | one row per race, with its newest payment |
 | `embed_payments.csv` | one row per expenditure, newest first within each race, with a `filing_url` |
 | `embed_states.csv` | one row per state, split by chamber and by supporting/opposing |
-| `embed_summary.csv` | one row: the graphic's headline figures and shares |
+| `embed_summary.csv` | one row: the graphic's headline figures and shares, plus `fec_checked_at`, when we last checked the FEC (UTC) |
 | `embed_daily.csv` | running totals by day, nationally and by state, for its charts |
 
 Totals are in whole dollars, rounded once at the smallest level shown and then
