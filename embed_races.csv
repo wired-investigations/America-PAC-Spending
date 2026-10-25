@@ -1,6 +1,6 @@
 race_id,race_name,state,state_abbr,seat,support_candidate,support_party,support_amount,oppose_candidate,oppose_party,oppose_amount,cycle,total_amount,payment_count,latest_payment_date,latest_payment_direction,latest_payment_amount,latest_payment_candidate,latest_payment_party,special_election,state_name,district
-2026-S-TX,TX Senate (2026),TX,TX,senate,Ken Paxton,REP,4997480,James Talarico,DEM,28104501,2026,33101981,79,2026-10-22,support,236965.23,Ken Paxton,REP,,Texas,
-2026-S-OH,OH Senate (2026),OH,OH,senate,Jon Husted,REP,2673205,Sherrod Brown,DEM,6748817,2026,9422022,170,2026-10-22,support,59627.93,Jon Husted,REP,,Ohio,
+2026-S-TX,TX Senate (2026),TX,TX,senate,Ken Paxton,REP,4997480,James Talarico,DEM,28722674,2026,33720154,80,2026-10-23,oppose,618173.08,James Talarico,DEM,,Texas,
+2026-S-OH,OH Senate (2026),OH,OH,senate,Jon Husted,REP,2720785,Sherrod Brown,DEM,6796397,2026,9517182,172,2026-10-23,oppose,47580.48,Sherrod Brown,DEM,,Ohio,
 2026-S-MI,MI Senate (2026),MI,MI,senate,Mike Rogers,REP,3426344,Abdul El-Sayed,DEM,5168131,2026,8594475,147,2026-10-22,oppose,267077.64,Abdul El-Sayed,DEM,,Michigan,
 2026-S-IA,IA Senate (2026),IA,IA,senate,Ashley Hinson,REP,289513,Josh Turek,DEM,2803038,2026,3092551,60,2026-10-22,oppose,78491.53,Josh Turek,DEM,,Iowa,
 2026-S-ME,ME Senate (2026),ME,ME,senate,Susan M. Collins,REP,634493,Troy Jackson,DEM,1496158,2026,2130651,70,2026-10-22,support,28768.08,Susan M. Collins,REP,,Maine,
@@ -8,11 +8,11 @@ race_id,race_name,state,state_abbr,seat,support_candidate,support_party,support_
 2026-S-AK,AK Senate (2026),AK,AK,senate,Dan Sullivan,REP,263776,Mary Peltola,DEM,707908,2026,971684,53,2026-10-20,oppose,150000.00,Mary Peltola,DEM,,Alaska,
 2026-H-PA-08,PA-08 (2026),PA,PA,district 8,Rob Bresnahan,REP,309415,Paige Cognetti,DEM,334624,2026,644039,31,2026-10-22,support,14285.43,Rob Bresnahan,REP,,Pennsylvania,8
 2026-H-PA-07,PA-07 (2026),PA,PA,district 7,Ryan Mackenzie,REP,269457,Bob Brooks,DEM,362857,2026,632314,29,2026-10-22,oppose,13815.55,Bob Brooks,DEM,,Pennsylvania,7
+2026-H-WI-03,WI-03 (2026),WI,WI,district 3,Derrick Van Orden,REP,228382,Rebecca Cooke,DEM,394564,2026,622946,35,2026-10-23,oppose,14918.56,Rebecca Cooke,DEM,,Wisconsin,3
 2026-H-NY-17,NY-17 (2026),NY,NY,district 17,Michael Lawler,REP,310528,Cait Conley,DEM,312412,2026,622940,31,2026-10-22,support,26771.50,Michael Lawler,REP,,New York,17
 2026-H-PA-10,PA-10 (2026),PA,PA,district 10,Scott Perry,REP,279144,Janelle Stelson,DEM,330224,2026,609368,29,2026-10-22,support,14477.23,Scott Perry,REP,,Pennsylvania,10
-2026-H-WI-03,WI-03 (2026),WI,WI,district 3,Derrick Van Orden,REP,228382,Rebecca Cooke,DEM,379646,2026,608028,34,2026-10-22,support,483.70,Derrick Van Orden,REP,,Wisconsin,3
+2026-H-WA-03,WA-03 (2026),WA,WA,district 3,John Braun,REP,538700,Marie Gluesenkamp Perez,DEM,47469,2026,586169,20,2026-10-23,support,27003.85,John Braun,REP,,Washington,3
 2026-H-AZ-01,AZ-01 (2026),AZ,AZ,district 1,Jay Feely,REP,482351,Amish Shah,DEM,95366,2026,577717,21,2026-10-19,oppose,24320.00,Amish Shah,DEM,,Arizona,1
-2026-H-WA-03,WA-03 (2026),WA,WA,district 3,John Braun,REP,511697,Marie Gluesenkamp Perez,DEM,47469,2026,559166,19,2026-10-22,support,22184.75,John Braun,REP,,Washington,3
 2026-H-AZ-06,AZ-06 (2026),AZ,AZ,district 6,Juan Ciscomani,REP,461520,JoAnna Mendoza,DEM,85287,2026,546807,21,2026-10-19,oppose,14270.84,JoAnna Mendoza,DEM,,Arizona,6
 2026-H-VA-02,VA-02 (2026),VA,VA,district 2,Jen Kiggans,REP,255295,Elaine Luria,DEM,290334,2026,545629,31,2026-10-22,support,18413.15,Jen Kiggans,REP,,Virginia,2
 2026-H-NJ-07,NJ-07 (2026),NJ,NJ,district 7,"Thomas H. Kean, Jr.",REP,211477,Rebecca Bennett,DEM,248931,2026,460408,22,2026-10-09,support,47463.00,"Thomas H. Kean, Jr.",REP,,New Jersey,7
