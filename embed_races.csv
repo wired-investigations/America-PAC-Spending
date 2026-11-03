@@ -4,7 +4,7 @@ race_id,race_name,state,state_abbr,seat,support_candidate,support_party,support_
 2026-S-MI,MI Senate (2026),MI,MI,senate,Mike Rogers,REP,3699982,Abdul El-Sayed,DEM,5479802,2026,9179784,170,2026-10-30,oppose,74215.75,Abdul El-Sayed,DEM,,Michigan,
 2026-S-IA,IA Senate (2026),IA,IA,senate,Ashley Hinson,REP,370968,Josh Turek,DEM,2888832,2026,3259800,64,2026-10-30,support,81454.63,Ashley Hinson,REP,,Iowa,
 2026-S-ME,ME Senate (2026),ME,ME,senate,Susan M. Collins,REP,771423,Troy Jackson,DEM,1544872,2026,2316295,78,2026-10-30,support,78208.20,Susan M. Collins,REP,,Maine,
-2026-S-AK,AK Senate (2026),AK,AK,senate,Dan Sullivan,REP,341181,Mary Peltola,DEM,916724,2026,1257905,63,2026-10-30,support,41760.48,Dan Sullivan,REP,,Alaska,
+2026-S-AK,AK Senate (2026),AK,AK,senate,Dan Sullivan,REP,341181,Mary Peltola,DEM,920224,2026,1261405,64,2026-11-02,oppose,3500.00,Mary Peltola,DEM,,Alaska,
 2026-S-NH,NH Senate (2026),NH,NH,senate,John Sununu,REP,265388,Chris Pappas,DEM,755773,2026,1021161,43,2026-10-19,support,2002.57,John Sununu,REP,,New Hampshire,
 2026-H-PA-08,PA-08 (2026),PA,PA,district 8,Rob Bresnahan,REP,342868,Paige Cognetti,DEM,334624,2026,677492,32,2026-10-30,support,33453.00,Rob Bresnahan,REP,,Pennsylvania,8
 2026-H-PA-07,PA-07 (2026),PA,PA,district 7,Ryan Mackenzie,REP,295937,Bob Brooks,DEM,362857,2026,658794,30,2026-10-30,support,26480.65,Ryan Mackenzie,REP,,Pennsylvania,7
@@ -40,3 +40,4 @@ race_id,race_name,state,state_abbr,seat,support_candidate,support_party,support_
 2026-H-OH-07,OH-07 (2026),OH,OH,district 7,Max Miller,REP,17654,Brian Poindexter,DEM,115087,2026,132741,18,2026-10-26,oppose,1657.04,Brian Poindexter,DEM,,Ohio,7
 2026-H-TX-09,TX-09 (2026),TX,TX,district 9,Alex Mealer,REP,40686,Leticia Gutierrez,DEM,70637,2026,111323,10,2026-10-22,oppose,6787.90,Leticia Gutierrez,DEM,,Texas,9
 2026-H-NH-02,NH-02 (2026),NH,NH,district 2,Lily Tang Williams,REP,8016,Maggie Goodlander,DEM,1811,2026,9827,2,2026-09-28,oppose,1810.76,Maggie Goodlander,DEM,,New Hampshire,2
+2026-H-NV-02,NV-02 (2026),NV,NV,district 2,David Flippo,REP,465,,,0,2026,465,1,2026-11-02,support,464.55,David Flippo,REP,,Nevada,2
